@@ -79,7 +79,7 @@ function App() {
               <Suspense fallback={null}>
                 <HtmlContent />
               </Suspense>
-              <OrbitControls />
+              <OrbitControls enableZoom={false} />
             </Canvas>
           </div>
         </div>
